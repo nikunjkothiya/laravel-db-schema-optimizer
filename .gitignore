@@ -1,0 +1,28 @@
+# Composer dependencies
+/vendor/
+
+# Composer itself
+composer.phar
+
+# Laravel specific
+/.env
+/.env.*.backup
+
+# Node modules
+/node_modules/
+
+# Log files
+/storage/logs/*.log
+
+# Cache files
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# IDE specific
+/.idea/
+/.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
